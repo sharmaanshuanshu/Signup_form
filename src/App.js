@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import HmNavbar from './components/HmNavbar';
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import MenFashion from './components/MenFashion';
+import WomenFashion from './components/WomenFashion';
+import KidsFashion from './components/KidsFashion';
+import { Link } from 'react-router-dom';
+import SignupForm from './Auth/SignupForm';
+import SigninForm from './Auth/SigninForm';
+import Home from './home/Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <HmNavbar />
+      {/* <Home></Home> */}
+      <Routes>
+        <Route exact path='/men' element={<MenFashion />} />
+        <Route exact path='/women' element={<WomenFashion />} />
+        <Route exact path='/kids' element={<KidsFashion />} />
+        <Route exact path='/signup' element={<SignupForm />} />
+        <Route exact path='/signin' element={<SigninForm />} />
+      </Routes>
+
+    </>
   );
 }
 

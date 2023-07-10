@@ -1,0 +1,1435 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
+html,
+body {
+    height: 100%;
+    width: 100%;
+    /* font-family: 'Roboto', sans-serif; */
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+header {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    height: 80px;
+} */
+
+.left img {
+    width: 70px;
+    height: 50px;
+}
+
+.container {
+    padding: 0vw 10vw;
+}
+
+nav {
+    font-size: 12px;
+    padding-top: 14px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.section1 {
+    background: white;
+    /* height: 122vh; */
+}
+
+.section1-text {
+    color: #FB4264;
+    font-size: 45px;
+    /* line-height: 9vw; */
+    text-shadow: 0 0 3vw #F40A35;
+    animation: section1-text 2s ease infinite;
+    -moz-animation: section1-text 2s ease infinite;
+    -webkit-animation: section1-text 2s ease infinite;
+}
+
+@keyframes section1-text {
+
+    0%,
+    100% {
+        text-shadow: 0 0 1vw #1693fa, 0 0 3vw #16fa66, 0 0 10vw #fa9f16, 0 0 10vw #16faeb, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+        color: #FED128;
+    }
+
+    50% {
+        text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+        color: #806914;
+    }
+}
+
+.search {
+    width: 20vw;
+    padding: 7px 17px;
+    border: 0.5px solid grey;
+    background: white;
+    border-radius: 5px;
+    margin: 0px 20px 0px 0px;
+}
+
+.signinbtn {
+    margin: 0px 30px 0px 0px;
+}
+
+.signupbtn {
+    margin: 0px 40px 0px -20px;
+
+}
+
+.homeImg {
+    width: 85vw;
+    height: 30vw;
+    margin: 90px 0px;
+}
+
+.homeSlider1 {
+    width: 25vw;
+    height: 30vw;
+    margin: -10px 0px;
+    border-radius: 25px;
+    /* border: 2px solid black; */
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+.homeSlider2 {
+    width: 25vw;
+    height: 30vw;
+    margin: -470px 0px 0px 480px;
+    border-radius: 25px;
+    /* border: 2px solid black; */
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage2 10s linear infinite;
+}
+
+@keyframes changeImage2 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+
+    }
+}
+
+.homeSlider3 {
+    width: 25vw;
+    height: 30vw;
+    margin: -465px 0px 0px 922px;
+    border-radius: 25px;
+    /* border: 2px solid black; */
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/61qr6hH0kWL._AC_UL400_.jpg');
+    animation: changeImage3 10s linear infinite;
+}
+
+@keyframes changeImage3 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/61qr6hH0kWL._AC_UL400_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71SfFfdvqqL._AC_UL400_.jpg');
+    }
+
+    50% {
+        background-image: url('https://m.media-amazon.com/images/I/61nsOPPhT4L._AC_UL400_.jpg');
+    }
+
+    75% {
+        background-image: url('https://m.media-amazon.com/images/I/61vWhA4zdNL._AC_UL400_.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/61R11o1DC+S._AC_UL400_.jpg");
+    }
+
+    125% {
+        background-image: url('');
+    }
+}
+
+.section2 {
+    height: 318px;
+    weight: 400px;
+    margin: 30px 0px 0px 90px;
+
+}
+
+.mobileImages {
+    height: 210px;
+    display: flexbox;
+    margin: 0px 0px 0px -5px;
+
+}
+
+.section1-text {
+    position: absolute;
+    top: 25%;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px 2px pink;
+    margin: 0px 0px 0px 950px;
+    box-shadow: rgba(149, 157, 165, 0.4);
+}
+
+.mline {
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+
+.s {
+    display: flex;
+    height: 25px;
+    /* padding: 20px; */
+    width: 60px;
+    margin: 0px 0px 0px 100px;
+}
+
+.l {
+    display: flex;
+    height: 25px;
+    /* padding: 20px; */
+    width: 60px;
+    margin: 0px 0px 0px 20px;
+}
+
+.c1 {
+    color: #fa1616;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0px 0px 0px 50px;
+}
+
+.c2 {
+    color: #fa1616;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0px 0px 0px 140px;
+}
+
+.c3 {
+    color: #fa1616;
+    font-size: 25px;
+    text-decoration: none;
+    margin: -10px 0px 0px 120px;
+}
+
+.c4 {
+    color: #fa1616;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0px 0px 0px 140px;
+}
+
+.c5 {
+    color: #fa1616;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0px 0px 0px 155px;
+}
+
+.c6 {
+    color: #fa1616;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0px 0px 0px 120px;
+}
+
+.container section3 {
+    margin: 0px 0px 0px 25px;
+}
+
+.wmfashion {
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+
+.wmfsl1 {
+    width: 15vw;
+    height: 15vw;
+    margin: -10px 0px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+.wmfsl2 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 250px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+.wmfsl3 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 500px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+.wmfsl4 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 750px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+
+.wmfsl5 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 1000px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+.container section4 {
+    margin: 0px 0px 0px 25px;
+}
+
+.beautyfshn {
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+
+.butyf1 {
+    width: 15vw;
+    height: 15vw;
+    margin: 0px 0px 0px 0px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+.butyf2 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 250px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+
+.butyf3 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 500px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+.butyf4 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 750px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+.butyf5 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 1000px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+.mensfshn {
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+
+.mensf1 {
+    width: 15vw;
+    height: 15vw;
+    margin: 0px 0px 0px 0px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+
+.mensf2 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 250px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+
+.mensf3 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 500px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+.mensf4 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 750px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+
+.mensf5 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 1000px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+.electronics {
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+
+
+.elect1 {
+    width: 15vw;
+    height: 15vw;
+    margin: 0px 0px 0px 0px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+
+
+.elect2 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 250px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+
+.elect3 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 500px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+
+.elect4 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 750px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+
+.elect5 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 1000px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+
+.kids {
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+
+
+.kids1 {
+    width: 15vw;
+    height: 15vw;
+    margin: 0px 0px 0px 0px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+
+.kids2 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 250px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+
+.kids3 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 500px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+
+.kids4 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 750px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+
+.kids5 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 1000px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+.homeProducts {
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+
+.hp1 {
+    width: 15vw;
+    height: 15vw;
+    margin: 0px 0px 0px 0px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+.hp2 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 250px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+.hp3 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 500px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+.hp4 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 750px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+.hp5 {
+    width: 15vw;
+    height: 15vw;
+    margin: -235px 0px 0px 1000px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-size: 100% 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    animation: changeImage1 10s linear infinite;
+}
+
+@keyframes changeImage1 {
+    0% {
+        background-image: url('https://m.media-amazon.com/images/I/71A7mJgXCxL._UY625_.jpg');
+    }
+
+    25% {
+        background-image: url('https://m.media-amazon.com/images/I/71On2XSPuRL._UL1500_.jpg');
+    }
+
+    50% {
+        background-image: url('https://c1.wallpaperflare.com/preview/680/478/429/online-shopping-lisaswardrobe-handbags-shopping.jpg');
+    }
+
+    75% {
+        background-image: url('https://mobirise.com/extensions/commercem4/assets/images/3.jpg');
+    }
+
+    100% {
+        background-image: url("https://m.media-amazon.com/images/I/71XKAnxCsLL._SX679_.jpg");
+    }
+
+}
+
+/* UTILS */
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+    font-size: 14px;
+    margin-left: 60px;
+}
+
+.justify-center {}
+
+.upperCase {
+    text-transform: uppercase;
+}
+
+.semiBold {
+    font-weight: bolder;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.mx-2 {
+    margin-left: 12px;
+    margin-right: 12px;
+}
